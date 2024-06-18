@@ -14,7 +14,7 @@ def start_game() -> None:
     guessed_letter_list = []
 
     print("Let's Play Hangman!")
-    print(display_hangman(right_to_try))
+    # print(display_hangman(right_to_try))
     print("Guessed word: ", guessed_world)
 
     while not guessed_correctly and right_to_try >= 0:

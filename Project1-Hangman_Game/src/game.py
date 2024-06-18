@@ -7,7 +7,7 @@ def start_game() -> None:
     with open('data/words.json', 'r') as file:
         words = json.load(file)
     word = get_random_word(words['words'])
-    print('::', word)
+    # print('::', word)
     right_to_try = 6
     guessed_world = '_' * len(word)
     guessed_correctly = False

@@ -1,0 +1,253 @@
+{
+  "espresso": {
+    "tall": {
+      "ingredients": {
+        "water": 50,
+        "coffee": 18
+      },
+      "cost": 1.5
+    },
+    "grande": {
+      "ingredients": {
+        "water": 75,
+        "coffee": 27
+      },
+      "cost": 2.0
+    },
+    "venti": {
+      "ingredients": {
+        "water": 100,
+        "coffee": 36
+      },
+      "cost": 2.5
+    }
+  },
+  "latte": {
+    "tall": {
+      "ingredients": {
+        "water": 150,
+        "milk": 100,
+        "coffee": 18
+      },
+      "cost": 2.5
+    },
+    "grande": {
+      "ingredients": {
+        "water": 200,
+        "milk": 150,
+        "coffee": 24
+      },
+      "cost": 3.0
+    },
+    "venti": {
+      "ingredients": {
+        "water": 250,
+        "milk": 200,
+        "coffee": 30
+      },
+      "cost": 3.5
+    }
+  },
+  "cappuccino": {
+    "tall": {
+      "ingredients": {
+        "water": 200,
+        "milk": 75,
+        "coffee": 18
+      },
+      "cost": 3.0
+    },
+    "grande": {
+      "ingredients": {
+        "water": 250,
+        "milk": 100,
+        "coffee": 24
+      },
+      "cost": 3.5
+    },
+    "venti": {
+      "ingredients": {
+        "water": 300,
+        "milk": 125,
+        "coffee": 30
+      },
+      "cost": 4.0
+    }
+  },
+  "americano": {
+    "tall": {
+      "ingredients": {
+        "water": 200,
+        "coffee": 18
+      },
+      "cost": 2.0
+    },
+    "grande": {
+      "ingredients": {
+        "water": 300,
+        "coffee": 27
+      },
+      "cost": 2.5
+    },
+    "venti": {
+      "ingredients": {
+        "water": 400,
+        "coffee": 36
+      },
+      "cost": 3.0
+    }
+  },
+  "mocha": {
+    "tall": {
+      "ingredients": {
+        "water": 75,
+        "milk": 100,
+        "coffee": 18,
+        "chocolate": 20
+      },
+      "cost": 3.5
+    },
+    "grande": {
+      "ingredients": {
+        "water": 100,
+        "milk": 150,
+        "coffee": 24,
+        "chocolate": 30
+      },
+      "cost": 4.0
+    },
+    "venti": {
+      "ingredients": {
+        "water": 125,
+        "milk": 200,
+        "coffee": 30,
+        "chocolate": 40
+      },
+      "cost": 4.5
+    }
+  },
+  "macchiato": {
+    "tall": {
+      "ingredients": {
+        "water": 50,
+        "milk": 25,
+        "coffee": 18
+      },
+      "cost": 2.75
+    },
+    "grande": {
+      "ingredients": {
+        "water": 75,
+        "milk": 50,
+        "coffee": 27
+      },
+      "cost": 3.25
+    },
+    "venti": {
+      "ingredients": {
+        "water": 100,
+        "milk": 75,
+        "coffee": 36
+      },
+      "cost": 3.75
+    }
+  },
+  "flat white": {
+    "tall": {
+      "ingredients": {
+        "water": 75,
+        "milk": 100,
+        "coffee": 18
+      },
+      "cost": 3.0
+    },
+    "grande": {
+      "ingredients": {
+        "water": 100,
+        "milk": 150,
+        "coffee": 24
+      },
+      "cost": 3.5
+    },
+    "venti": {
+      "ingredients": {
+        "water": 125,
+        "milk": 200,
+        "coffee": 30
+      },
+      "cost": 4.0
+    }
+  },
+  "cortado": {
+    "tall": {
+      "ingredients": {
+        "water": 50,
+        "milk": 25,
+        "coffee": 18
+      },
+      "cost": 2.5
+    },
+    "grande": {
+      "ingredients": {
+        "water": 75,
+        "milk": 50,
+        "coffee": 27
+      },
+      "cost": 3.0
+    },
+    "venti": {
+      "ingredients": {
+        "water": 100,
+        "milk": 75,
+        "coffee": 36
+      },
+      "cost": 3.5
+    }
+  },
+  "ristretto": {
+    "tall": {
+      "ingredients": {
+        "water": 25,
+        "coffee": 18
+      },
+      "cost": 1.75
+    },
+    "grande": {
+      "ingredients": {
+        "water": 35,
+        "coffee": 27
+      },
+      "cost": 2.25
+    },
+    "venti": {
+      "ingredients": {
+        "water": 50,
+        "coffee": 36
+      },
+      "cost": 2.75
+    }
+  },
+  "long black": {
+    "tall": {
+      "ingredients": {
+        "water": 150,
+        "coffee": 18
+      },
+      "cost": 2.25
+    },
+    "grande": {
+      "ingredients": {
+        "water": 225,
+        "coffee": 27
+      },
+      "cost": 2.75
+    },
+    "venti": {
+      "ingredients": {
+        "water": 300,
+        "coffee": 36
+      },
+      "cost": 3.25
+    }
+  }
+}

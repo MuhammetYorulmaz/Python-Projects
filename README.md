@@ -9,4 +9,8 @@ Welcome to my repository of Python projects! Here you'll find a collection of pr
 - **Folder**: `Project1-Hangman_Game/`
 - **README**: [Hangman Game README](./Project1-Hangman_Game/README.md)
 
+### Project2: Coffee Machine
+- **Description**: A simple terminal-based coffee machine simulator that interacts with users to take orders, process payments, and dispense coffee.
+- **Folder**: `Project2-Coffee_Machine`
+- **README**: [Coffee Machine README](./Project2-Coffee_Machine/README.md)
 ---

@@ -1,5 +1,5 @@
 import json
-from utils import resources, profit, is_resources_sufficient, process_coins, is_transaction_successful, make_coffee
+from utils import resources, is_resources_sufficient, process_coins, is_transaction_successful, make_coffee
 
 
 def coffee_machine():
@@ -38,7 +38,7 @@ def coffee_machine():
             print('\nStock of Products:')
             for key, value in resources.items():
                 print(f"{key.capitalize()}: {value}")
-            print(f"Profit: ${profit} \n")
+            # print(f"Profit: ${profit} \n")
         elif choice_coffee == 'exit':
             print("Successfully exited the program")
             machine_condition = False

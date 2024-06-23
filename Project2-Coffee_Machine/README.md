@@ -1,4 +1,4 @@
-# Hangman Game
+# Coffee Machine
 
 ## Description
 This project implements a simple Coffee Machine programme running on the terminal.

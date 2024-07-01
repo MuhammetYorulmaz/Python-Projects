@@ -8,7 +8,7 @@ class QuizAPI:
         self.category = type_of_quiz
         self.difficulty = select_difficulty
 
-    def fetch_quiz(self):
+    def fetch_quiz(self) -> dict:
         if self.difficulty != 'any':
             url = (f"https://opentdb.com/api.php?amount={self.amount}&category={int(self.category) + 8}"
                    f"&difficulty={self.difficulty}&type=multiple")
@@ -29,7 +29,7 @@ class QuizAPI:
 class QuizCategories:
 
     @staticmethod
-    def fetch_categories():
+    def fetch_categories() -> dict:
         dict_of_categories = {}
         url = 'https://opentdb.com/api_category.php'
         response = requests.get(url)
